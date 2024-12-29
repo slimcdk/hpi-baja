@@ -7,6 +7,7 @@
 *.FCStd1
 *.fcstd2
 *.FCStd2
+*.FCBak
 
 ### Images ###
 # JPEG
@@ -194,3 +195,9 @@ exports/*
 *.ogv
 *.log
 .env
+
+# Whitelist
+!*.jpg
+!*.jpeg
+!*.png
+!*.pdf
